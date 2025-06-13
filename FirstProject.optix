@@ -113,16 +113,40 @@ Project:
    Uri: 'urn:FTOptix:CommunicationDriver:Net'
    Module: FTOptix.CommunicationDriver.Net
    Version: 3.0
+  29:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.0
+  30:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
+  31:
+   Uri: 'urn:FTOptix:SerialPort'
+   Module: FTOptix.SerialPort
+   Version: 1.0
+  32:
+   Uri: 'urn:FTOptix:SerialPort:Net'
+   Module: FTOptix.SerialPort.Net
+   Version: 1.0
+  33:
+   Uri: 'urn:FTOptix:EventLogger'
+   Module: FTOptix.EventLogger
+   Version: 2.0
+  34:
+   Uri: 'urn:FTOptix:EventLogger:Net'
+   Module: FTOptix.EventLogger.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 2474
-  Objects: 551
-  ObjectTypes: 19
-  Variables: 1900
+  TotalNodeCount: 7320
+  Objects: 1619
+  ObjectTypes: 38
+  Variables: 5649
   VariableTypes: 0
   DataTypes: 0
-  Methods: 4
-  References: 51
+  Methods: 14
+  References: 102
   ReferenceTypes: 0
-  Files: 30
+  Files: 33
  Nodes:
  - File: Nodes/FirstProject.yaml

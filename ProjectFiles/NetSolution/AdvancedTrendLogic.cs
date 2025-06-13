@@ -15,6 +15,9 @@ using FTOptix.WebUI;
 using System.Threading;
 using FTOptix.Report;
 using FTOptix.CommunicationDriver;
+using FTOptix.Alarm;
+using FTOptix.SerialPort;
+using FTOptix.EventLogger;
 
 #endregion
 

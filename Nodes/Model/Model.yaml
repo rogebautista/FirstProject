@@ -4,3 +4,24 @@ Children:
 - Name: temp
   Type: BaseDataVariableType
   DataType: Int32
+- Name: Motor1Alarm
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: Types/Types.yaml
+- Name: MyMotor1
+  Id: g=9221331715a00d6a853b41be6073fd28
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: MyMotor2
+  Id: g=1749aa135b4b43aa2cc447f52cac22b8
+  Type: MyMotor
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
