@@ -5,6 +5,7 @@ using FTOptix.HMIProject;
 using System;
 using FTOptix.SerialPort;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class AlarmWidgetLogic : BaseNetLogic

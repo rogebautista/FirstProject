@@ -9,7 +9,7 @@ Children:
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","de-DE","es-ES"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
     DataType: LocaleId
@@ -28,6 +28,9 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:
@@ -63,3 +66,12 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/FirstProject/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/FirstProject/Recipes/RecipeSchema1/EditModel"

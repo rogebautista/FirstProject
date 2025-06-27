@@ -5,6 +5,7 @@ using System.Linq;
 using FTOptix.NetLogic;
 using FTOptix.SerialPort;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic

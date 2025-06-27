@@ -102,3 +102,5 @@ Children:
       ModellingRule: Optional
       Value: 2
 - File: AlarmWidgets/AlarmWidgets.yaml
+- File: LoginForm/LoginForm.yaml
+- File: UserEditor/UserEditor.yaml

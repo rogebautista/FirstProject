@@ -18,6 +18,7 @@ using FTOptix.CommunicationDriver;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 
 #endregion
 

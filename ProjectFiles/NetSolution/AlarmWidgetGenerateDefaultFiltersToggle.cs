@@ -4,6 +4,7 @@ using FTOptix.NetLogic;
 using UAManagedCore;
 using FTOptix.SerialPort;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class AlarmWidgetGenerateDefaultFiltersToggle : BaseNetLogic

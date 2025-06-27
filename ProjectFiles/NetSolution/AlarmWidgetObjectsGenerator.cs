@@ -6,6 +6,7 @@ using System.Linq;
 using UAManagedCore;
 using FTOptix.SerialPort;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 using static AlarmFilterDataLogic;
 #endregion
 

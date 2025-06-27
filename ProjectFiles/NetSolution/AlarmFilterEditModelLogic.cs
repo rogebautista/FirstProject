@@ -5,6 +5,7 @@ using System;
 using UAManagedCore;
 using FTOptix.SerialPort;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 using OpcUa = UAManagedCore.OpcUa;
 using static AlarmFilterDataLogic;
 #endregion

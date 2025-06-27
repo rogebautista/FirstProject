@@ -8,6 +8,7 @@ using System;
 using System.Linq;
 using FTOptix.SerialPort;
 using FTOptix.EventLogger;
+using FTOptix.Recipe;
 using static AlarmFilterDataLogic;
 #endregion
 
